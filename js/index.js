@@ -18,15 +18,15 @@ $(document).ready(function() {
 
 			// if city match than update background
 			if (city === 'new york' || city === 'new york city' || city === 'nyc') {
-				$('body').css('background-image', 'url(./images/nyc.jpg)');
+				$('body').attr('class', 'nyc');
 			} else if (city === 'san francisco' || city === 'sf' || city === 'bay area') {
-				$('body').css('background-image', 'url(./images/sf.jpg)');
+				$('body').attr('class', 'sf');
 			} else if (city === 'los angeles' || city === 'la' || city === 'lax') {
-				$('body').css('background-image', 'url(./images/la.jpg)');
+				$('body').attr('class', 'la');
 			} else if (city === 'austin' || city === 'atx') {
-				$('body').css('background-image', 'url(./images/austin.jpg)');
+				$('body').attr('class', 'austin');
 			} else if (city === 'sydney' || city === 'syd') {
-				$('body').css('background-image', 'url(./images/sydney.jpg)');
+				$('body').attr('class', 'sydney');
 			} 
 
 			// if no city match then display alert
